@@ -93,7 +93,7 @@ Você pode testar usando:
    http://localhost:8080](http://localhost:8080)
    ```
 
-
+---
 
 ## Tecnologias Usadas
 - Java 17+
@@ -103,6 +103,7 @@ Você pode testar usando:
 - PostgreSQL
 - Docker/Docker Compose
 
+---
 
 ## Objetivo do Projeto
 Praticar:
@@ -111,3 +112,5 @@ Praticar:
 - Conexão com PostgreSQL usando Docker
 - Criação de endpoints REST
 - Estruturação de um CRUD completo
+
+---
