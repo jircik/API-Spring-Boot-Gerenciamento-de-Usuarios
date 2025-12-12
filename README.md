@@ -59,30 +59,12 @@ O projeto usa as seguintes variáveis de conexão (ajuste conforme seu ambiente)
 
 ---
 
-## Endpoints da API
-
-A API possui operações CRUD completas:
-
-### **POST /users**
-
-Cria um novo usuário.
-
-### **GET /users**
-
-Retorna todos os usuários.
-
-### **GET /users/{id}**
-
-Retorna um usuário pelo ID.
-
-### **PUT /users/{id}**
-
-Atualiza um usuário existente.
-
-### **DELETE /users/{id}**
-
-Remove um usuário do sistema.
-
+POST /users – cria usuário
+GET /users – lista usuários
+GET /users/{id} – busca por ID
+PUT /users/{id} – atualiza usuário
+DELETE /users/{id} – remove usuário por ID
+DELETE /users/{nome} - remove usuario por nome
 ---
 
 ## Testes dos Endpoints
@@ -135,3 +117,4 @@ Praticar:
 - Estruturação de um CRUD completo
 
 ---
+```
