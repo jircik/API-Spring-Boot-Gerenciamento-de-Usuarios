@@ -1,3 +1,48 @@
+# API CRUD com Spring Boot e PostgreSQL
+
+Este projeto é um exemplo simples de uma **API REST CRUD** desenvolvida com:
+
+* **Spring Boot**
+* **Spring Web**
+* **Spring Data JPA**
+* **PostgreSQL**
+* **Docker / Docker Compose**
+
+O objetivo é praticar a criação de uma aplicação backend completa usando boas práticas de estruturação em camadas.
+
+## Testes e Qualidade de Código
+
+O projeto possui uma suíte de testes automatizados cobrindo as principais camadas da aplicação, garantindo qualidade e confiabilidade do código.
+
+### Cobertura de Testes
+
+* **Cobertura total:** **93%**
+* Relatório gerado com **JaCoCo**
+* Análise de cobertura por classes, métodos e linhas
+
+### Tecnologias e Ferramentas de Teste
+
+* **JUnit 5** – framework de testes
+* **Mockito** – mocks e isolamento de dependências
+* **Spring Boot Test** – suporte a testes no ecossistema Spring
+* **MockMvc** – testes de controllers REST
+* **JaCoCo** – análise de cobertura de código
+
+---
+
+## Estrutura de Pastas
+
+```
+src/main/java/com.springcrud
+├── controller      # Endpoints da API
+├── service         # Regras de negócio
+├── repository      # Acesso ao banco (JPA)
+├── model           # Entidades JPA
+└── Application.java # Classe principal
+```
+
+---
+
 ## Executando o Postgres com Docker
 
 O projeto utiliza um banco Postgres rodando em Docker. O arquivo `docker-compose.yml` sobe o banco automaticamente.
