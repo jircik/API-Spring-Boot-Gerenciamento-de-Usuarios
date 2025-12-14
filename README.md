@@ -78,7 +78,7 @@ O banco irá rodar na porta configurada no `docker-compose.yml`.
 ---
 
 ## Tecnologias Usadas
-- Java 17+
+- Java 21+
 - Spring Boot
 - Spring Web
 - Spring Data JPA
