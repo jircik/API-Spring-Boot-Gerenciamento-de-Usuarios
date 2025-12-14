@@ -16,7 +16,7 @@ O projeto possui uma suíte de testes automatizados cobrindo as principais camad
 
 ### Cobertura de Testes
 
-* **Cobertura total:** **93%**
+* **Cobertura total:** **96%**
 * Relatório gerado com **JaCoCo**
 * Análise de cobertura por classes, métodos e linhas
 
@@ -71,9 +71,11 @@ O banco irá rodar na porta configurada no `docker-compose.yml`.
 
 ### **GET /users/{id}** – busca por ID
 
+### **GET /users/{nome}** – busca por NOME
+
 ### **PUT /users/{id}** – atualiza usuário
 
-### **DELETE /users/{id}** – remove usuário
+### **DELETE /users/{id}** – remove usuário por ID
 
 ---
 
