@@ -43,26 +43,6 @@ src/main/java/com.springcrud
 
 ---
 
-## Executando o Postgres com Docker
-
-O projeto utiliza um banco Postgres rodando em Docker. O arquivo `docker-compose.yml` sobe o banco automaticamente.
-
-### **Subir o container:**
-
-```
-docker-compose up -d
-```
-
-### **Parar o container:**
-
-```
-docker-compose down
-```
-
-O banco irá rodar na porta configurada no `docker-compose.yml`.
-
----
-
 ## Endpoints da API
 
 ### **POST /users** – cria usuário
@@ -82,11 +62,9 @@ O banco irá rodar na porta configurada no `docker-compose.yml`.
 ## Tecnologias Usadas
 - Java 21+
 - Spring Boot
-- Spring Web
 - Spring Data JPA
 - PostgreSQL
-- Docker/Docker Compose
-
+  
 ---
 
 ## Objetivo do Projeto
